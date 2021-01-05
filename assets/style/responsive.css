@@ -1,0 +1,145 @@
+@media only screen and (max-width: 700px){
+    body{
+        width: 320px;
+    }
+
+    .marketing-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+        height: 100px;
+        background-image: none;
+        background-color: var(--background-dark);
+    }
+
+    .marketing-img h1{
+        font-size: 30px;
+        color: var(--white);
+        margin: 10px 0 10px 0;
+    }
+    
+    .marketing-img h3{
+        font-size: 15px;
+        width: 210px;
+        color: var(--white);
+        text-align: center;
+    }
+
+    .background-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 215px;
+    background: url(../img/background-square.jpg) no-repeat;
+    background-size: cover;
+
+    }
+
+
+    /* segundo container com  cor de fundo mais escura */
+    .dark-container{
+        width: 320px;
+        height: 1200px;
+    }
+    
+    .inner-container{
+        width: 99.5%;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tree-square{
+        width: 320px;
+        margin-bottom: 30px;
+    }
+    
+    .central-square{
+        width: 300px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
+    
+    .central-square img{
+        width: 275px;
+        height: 185px;
+    }
+    
+    .tree-square h3{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .tree-square p{
+        text-align: center;
+        width: 290px;
+    }
+
+    /* terceiro container com a cor de fundo mais clara */
+    .clear-container{
+        width: 320px;
+        height: 950px;
+    }
+
+    .inner-container-text-img{
+        max-width: 99.5%;
+        padding-top: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .half{
+        width: 99.5%;
+        margin-right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .half-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .half-img .img{
+        width: 272px;
+        height: 272px;  
+    }
+
+    .half-text{
+        width: 99.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .half-text h2{
+        margin-bottom: 34px;
+    }
+
+    .half-text p{
+        width: 290px;
+        text-align: center;
+    }
+
+    .half-text strong{
+        text-align: center;
+        width: 290px;
+    }
+
+    .half-text i{
+        text-align: center;
+        width: 290px;
+    }
+
+    /* footer */
+    footer{
+        width: 320px;
+        height: 80px;   
+    }
+
+}

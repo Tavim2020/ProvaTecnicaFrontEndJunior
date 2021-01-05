@@ -1,0 +1,197 @@
+:root{
+    --primary-text-color: #546130;
+    --secondy-text-color: #2D3B09;
+    --background-dark: #454545;
+    --background-claro: #6f6f6f;
+    --borda-redonda: #343434;
+    --primeiro-e-ultimo-paragrafo: #f5f5f5;
+    --white: #ffffff;
+    --terceiro-paragrafo: #c6c6c6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1366px;
+}
+
+.marketing-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1366px;
+    height: 911px;
+    background: url(../img/Background.full.webp) no-repeat;
+    
+}
+
+.marketing-img h1{
+    font-family: sans-serif;
+    font-size: 60px;
+    margin: 40px 0 10px 0;
+    color: var(--primary-text-color);
+}
+
+.marketing-img h3{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: var(--secondy-text-color);
+}
+
+/* segundo container com  cor de fundo mais escura */
+.dark-container{
+    width: 1366px;
+    height: 503px;
+    background-color: var(--background-dark);
+}
+
+.inner-container{
+    margin: 0 auto;
+    width: 1195px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tree-square{
+    width: 323px;
+    margin-right: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.central-square{
+    width: 323px;
+    height: 223px;
+    background-color: var(--background-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.central-square img{
+    width: 300px;
+    height: 200px;
+}
+
+.tree-square h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.tree-square p{
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    color: var(--white);
+    width: 287px;
+}
+
+/* terceiro container com a cor de fundo mais clara */
+.clear-container{
+    width: 1366px;
+    height: 503px;
+    background-color: var(--background-claro);
+}
+
+.inner-container-text-img{
+    margin: 0 auto;
+    max-width: 1195px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.half{
+    width: 50%;
+    margin-right: 83px;
+}
+.half-img{
+    width: 429px;
+    height: 429px;
+    border-radius: 50%;
+    background-color: var(--borda-redonda);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.half-img .img{
+    width: 389px;
+    height: 389px;
+    border-radius: 50%;
+    background: url(../img/background-radius.jpg) no-repeat;
+    background-size: cover;
+    filter: brightness(101%);
+    filter: contrast(80%);
+    filter: saturate(110%);
+    background-position-x: -70px;
+}
+
+.half-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.half-text h2{
+    font-family: sans-serif;
+    font-size: 36px;
+    color: var(--white);
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.half-text p{
+    font-family: sans-serif;
+    color: var(--primeiro-e-ultimo-paragrafo);
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 659px;
+}
+
+.half-text strong{
+    font-family: sans-serif;
+    color: var(--white);
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 659px;
+}
+
+.half-text i{
+    font-family: sans-serif;
+    color: var(--primeiro-e-ultimo-paragrafo);
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 659px;
+}
+
+
+/* footer */
+footer{
+    width: 1366px;
+    height: 93px;
+    background-color: var(--background-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3{
+    font-size: 24px;
+    color: var(--white);
+    font-family: sans-serif;
+}
