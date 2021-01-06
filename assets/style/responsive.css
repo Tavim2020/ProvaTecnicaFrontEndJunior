@@ -300,7 +300,7 @@
 
 
 
-@media only screen and (min-width: 1367px) and (max-width: 1949px){
+@media only screen and (min-width: 1367px) and (max-width: 2850px){
     body{
         width: 100vw;
     }
@@ -310,6 +310,7 @@
         height: 911px;
         background: url(../img/Background.full.webp) no-repeat;
         background-size: cover; 
+        background-position: center;
     }
     
     /* segundo container com  cor de fundo mais escura */
@@ -335,21 +336,22 @@
 }
 
 
-@media only screen and (min-width: 1950px){
+@media only screen and (min-width: 2851px){
     body{
         width: 100vw;
     }
     
     .marketing-img{
         width: 100vw;
-        height: 152vh;
+        height: 152.2vh;
         background: url(../img/Background.full.webp) no-repeat;
-        background-size: cover; 
+        background-size: cover;
+        background-position: center;    
     }
     
     .marketing-img h1{
         font-size: 4.8vw;
-        margin: 3.2vw 0 0.8vw 0;
+        margin: 6.7vh 0 1.6vh 0;
     }
     
     .marketing-img h3{
@@ -365,20 +367,19 @@
     .inner-container{
         width: 96.2vw;
         height: 100%;
-        padding-top: 4vw;
-        
+        padding-top: 6.7vh;
     }
     
     .tree-square{
         width: 26vw;
         margin-right: 7.8vw;
-        margin-bottom: 16.75vh;
+        margin-bottom: 8.3vh;
     }
     
     .central-square{
         width: 26vw;
         height: 37.3vh;
-        margin-bottom: 2.5vh;
+        margin-bottom: 1.6vh;
     }
     
     .central-square img{
@@ -403,25 +404,27 @@
     }
     
     .inner-container-text-img{
-        max-width: 96.2vw;
-        padding-top: 4vw;
+        width: 96.2vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
     }
     
     .half{
         width: 50%;
-        margin-right: 6.6vw;
+        height: 100%;
+        margin-right: 5vw;
     }
+    
     .half-img{
         width: 34.5vw;
         height: 71.8vh;
     }
     
     .half-img .img{
-        width: 31.2vw;
+        width: 31.3vw;
         height: 65.1vh;
-        background: url(../img/background-radius.jpg) no-repeat;
-        background-size: cover;
-        background-position-x: -200px;
+        background-position-x: -10.6vw;
     }
     
     .half-text{
@@ -431,7 +434,6 @@
     .half-text h2{
         font-size: 2.8vw;
         margin-bottom: 3.3vh;
-        margin-top: 4.1vh;
     }
     
     .half-text p{

@@ -110,7 +110,7 @@ body{
 
 .inner-container-text-img{
     margin: 0 auto;
-    max-width: 1195px;
+    width: 1195px;
     padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
