@@ -1,6 +1,7 @@
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 320px){
     body{
         width: 320px;
+        height: 100vh;
     }
 
     .marketing-img{
@@ -27,13 +28,13 @@
     }
 
     .background-mobile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 320px;
-    height: 215px;
-    background: url(../img/background-square.jpg) no-repeat;
-    background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        height: 215px;
+        background: url(../img/background-square.jpg) no-repeat;
+        background-size: cover;
 
     }
 
@@ -142,4 +143,323 @@
         height: 80px;   
     }
 
+}
+
+@media only screen and (min-width:321px) and (max-width: 800px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .marketing-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100px;
+        background-image: none;
+        background-color: var(--background-dark);
+    }
+
+    .marketing-img h1{
+        font-size: 30px;
+        color: var(--white);
+        margin: 10px 0 7px 0;
+    }
+    
+    .marketing-img h3{
+        font-size: 16px;
+        width: 290px;
+        color: var(--white);
+        text-align: center;
+    }
+
+    .background-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 215px;
+        background: url(../img/background-square.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+
+    /* segundo container com  cor de fundo mais escura */
+    .dark-container{
+        width: 100vw;
+        height: 1200px;
+    }
+    
+    .inner-container{
+        width: 100vw;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tree-square{
+        width: 100vw;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+    }
+    
+    .central-square{
+        width: 300px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
+    
+    .central-square img{
+        width: 275px;
+        height: 185px;
+    }
+    
+    .tree-square h3{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .tree-square p{
+        text-align: center;
+        width: 290px;
+    }
+
+    /* terceiro container com a cor de fundo mais clara */
+    .clear-container{
+        width: 100vw;
+        height: 950px;
+    }
+
+    .inner-container-text-img{
+        max-width: 99.5%;
+        padding-top: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .half{
+        width: 99.5%;
+        margin-right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .half-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .half-img .img{
+        width: 272px;
+        height: 272px;  
+    }
+
+    .half-text{
+        width: 99.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .half-text h2{
+        margin-bottom: 34px;
+    }
+
+    .half-text p{
+        width: 290px;
+        text-align: center;
+    }
+
+    .half-text strong{
+        text-align: center;
+        width: 290px;
+    }
+
+    .half-text i{
+        text-align: center;
+        width: 290px;
+    }
+
+    /* footer */
+    footer{
+        width: 100vw;
+        height: 80px;   
+    }
+}
+
+
+
+@media only screen and (min-width: 1367px) and (max-width: 1949px){
+    body{
+        width: 100vw;
+    }
+    
+    .marketing-img{
+        width: 100vw;
+        height: 911px;
+        background: url(../img/Background.full.webp) no-repeat;
+        background-size: cover; 
+    }
+    
+    /* segundo container com  cor de fundo mais escura */
+    .dark-container{
+        width: 100vw;
+        height:503px;
+    }
+
+    /* terceiro container com a cor de fundo mais clara */
+    .clear-container{
+        width: 100vw;
+        height: 503px;
+    }
+    
+    
+    
+    /* footer */
+    footer{
+        width: 100vw;
+        height: 93px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1950px){
+    body{
+        width: 100vw;
+    }
+    
+    .marketing-img{
+        width: 100vw;
+        height: 152vh;
+        background: url(../img/Background.full.webp) no-repeat;
+        background-size: cover; 
+    }
+    
+    .marketing-img h1{
+        font-size: 4.8vw;
+        margin: 3.2vw 0 0.8vw 0;
+    }
+    
+    .marketing-img h3{
+        font-size: 1.9vw;
+    }
+    
+    /* segundo container com  cor de fundo mais escura */
+    .dark-container{
+        width: 100vw;
+        height: 84.2vh;
+    }
+    
+    .inner-container{
+        width: 96.2vw;
+        height: 100%;
+        padding-top: 4vw;
+        
+    }
+    
+    .tree-square{
+        width: 26vw;
+        margin-right: 7.8vw;
+        margin-bottom: 16.75vh;
+    }
+    
+    .central-square{
+        width: 26vw;
+        height: 37.3vh;
+        margin-bottom: 2.5vh;
+    }
+    
+    .central-square img{
+        width: 24.1vw;
+        height: 33.5vh;
+    }
+    
+    .tree-square h3{
+        font-size: 1.9vw;
+        margin-bottom: 1.6vh;
+    }
+    
+    .tree-square p{
+        font-size: 1.2vw;
+        width: 23.1vw;
+    }
+    
+    /* terceiro container com a cor de fundo mais clara */
+    .clear-container{
+        width: 100vw;
+        height: 84.2vh;
+    }
+    
+    .inner-container-text-img{
+        max-width: 96.2vw;
+        padding-top: 4vw;
+    }
+    
+    .half{
+        width: 50%;
+        margin-right: 6.6vw;
+    }
+    .half-img{
+        width: 34.5vw;
+        height: 71.8vh;
+    }
+    
+    .half-img .img{
+        width: 31.2vw;
+        height: 65.1vh;
+        background: url(../img/background-radius.jpg) no-repeat;
+        background-size: cover;
+        background-position-x: -200px;
+    }
+    
+    .half-text{
+        justify-content: center;
+    }
+    
+    .half-text h2{
+        font-size: 2.8vw;
+        margin-bottom: 3.3vh;
+        margin-top: 4.1vh;
+    }
+    
+    .half-text p{
+        margin-bottom: 3.3vh;
+        font-size: 1.2vw;
+        width: 53vw;
+    }
+    
+    .half-text strong{
+        margin-bottom: 3.3vh;
+        font-size: 1.2vw;
+        width: 53vw;
+    }
+    
+    .half-text i{
+        margin-bottom: 3.3vh;
+        font-size: 1.2vw;
+        width: 53vw;
+    }
+    
+    
+    /* footer */
+    footer{
+        width: 100vw;
+        height: 15.5vh;
+    }
+    
+    footer h3{
+        font-size: 1.9vw;
+    }
 }
