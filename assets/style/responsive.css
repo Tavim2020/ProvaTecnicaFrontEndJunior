@@ -300,58 +300,24 @@
 
 
 
-@media only screen and (min-width: 1367px) and (max-width: 2850px){
+@media only screen and (min-width: 1367px){
     body{
         width: 100vw;
+        height: 100%;
     }
     
     .marketing-img{
         width: 100vw;
-        height: 911px;
-        background: url(../img/Background.full.webp) no-repeat;
-        background-size: cover; 
-        background-position: center;
-    }
-    
-    /* segundo container com  cor de fundo mais escura */
-    .dark-container{
-        width: 100vw;
-        height:503px;
-    }
-
-    /* terceiro container com a cor de fundo mais clara */
-    .clear-container{
-        width: 100vw;
-        height: 503px;
-    }
-    
-    
-    
-    /* footer */
-    footer{
-        width: 100vw;
-        height: 93px;
-    }
-    
-}
-
-
-@media only screen and (min-width: 2851px){
-    body{
-        width: 100vw;
-    }
-    
-    .marketing-img{
-        width: 100vw;
-        height: 152.2vh;
+        height: 73.3vw;
         background: url(../img/Background.full.webp) no-repeat;
         background-size: cover;
-        background-position: center;    
+        object-fit: cover;
+        
     }
     
     .marketing-img h1{
         font-size: 4.8vw;
-        margin: 6.7vh 0 1.6vh 0;
+        margin: 3.2vw 0 0.8vw 0;
     }
     
     .marketing-img h3{
@@ -361,95 +327,93 @@
     /* segundo container com  cor de fundo mais escura */
     .dark-container{
         width: 100vw;
-        height: 84.2vh;
+        height: 100%;
     }
     
     .inner-container{
-        width: 96.2vw;
-        height: 100%;
-        padding-top: 6.7vh;
+        margin: 0 auto;
+        width: 85%;
+        padding-top: 4vw;
     }
     
     .tree-square{
         width: 26vw;
-        margin-right: 7.8vw;
-        margin-bottom: 8.3vh;
+        margin-right: 0;
+        margin-bottom: 4vw;
     }
     
     .central-square{
         width: 26vw;
-        height: 37.3vh;
-        margin-bottom: 1.6vh;
+        height: 17.9vw;
+        margin-bottom: 1.2vw;
     }
     
     .central-square img{
-        width: 24.1vw;
-        height: 33.5vh;
+        width: 24vw;
+        height: 16vw;
     }
     
     .tree-square h3{
         font-size: 1.9vw;
-        margin-bottom: 1.6vh;
+        margin-bottom: 0.8vw;
     }
     
     .tree-square p{
         font-size: 1.2vw;
-        width: 23.1vw;
+        width: 23vw;
     }
     
     /* terceiro container com a cor de fundo mais clara */
     .clear-container{
         width: 100vw;
-        height: 84.2vh;
+        height: 40vw;
+        background-color: var(--background-claro);
     }
     
     .inner-container-text-img{
-        width: 96.2vw;
-        height: 100%;
-        display: flex;
-        align-items: center;
+        margin: 0 auto;
+        width: 85%;
     }
     
     .half{
         width: 50%;
-        height: 100%;
-        margin-right: 5vw;
     }
-    
+
     .half-img{
         width: 34.5vw;
-        height: 71.8vh;
+        height: 34.5vw;
+        border-radius: 50%;
     }
     
     .half-img .img{
         width: 31.3vw;
-        height: 65.1vh;
-        background-position-x: -10.6vw;
+        height: 31.3vw;
+        background-position-x: -5.6vw;
     }
     
-    .half-text{
-        justify-content: center;
-    }
     
     .half-text h2{
         font-size: 2.8vw;
-        margin-bottom: 3.3vh;
+        margin-bottom: 1.6vw;
+        margin-top: 3.5vw;
     }
     
     .half-text p{
-        margin-bottom: 3.3vh;
+        margin-bottom: 1.6vw;
         font-size: 1.2vw;
         width: 53vw;
     }
     
     .half-text strong{
-        margin-bottom: 3.3vh;
+        margin-bottom: 1.6vw;
         font-size: 1.2vw;
         width: 53vw;
     }
     
     .half-text i{
-        margin-bottom: 3.3vh;
+        font-family: sans-serif;
+        color: var(--primeiro-e-ultimo-paragrafo);
+        margin-bottom: 1.6vw;
         font-size: 1.2vw;
         width: 53vw;
     }
@@ -458,10 +422,12 @@
     /* footer */
     footer{
         width: 100vw;
-        height: 15.5vh;
+        height: 100%;
     }
     
     footer h3{
+        margin-top: 1.6vw;
         font-size: 1.9vw;
+        margin-bottom: 1.6vw;
     }
 }
