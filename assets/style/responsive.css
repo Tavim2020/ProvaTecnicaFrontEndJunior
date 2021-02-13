@@ -332,8 +332,9 @@
     
     .inner-container{
         margin: 0 auto;
-        width: 85%;
+        width: 90%;
         padding-top: 4vw;
+        gap: 2vw;
     }
     
     .tree-square{
@@ -372,17 +373,18 @@
     
     .inner-container-text-img{
         margin: 0 auto;
-        width: 85%;
+        width: 90%;
     }
     
     .half{
         width: 50%;
+        margin-right: 0;
     }
 
     .half-img{
         width: 34.5vw;
         height: 34.5vw;
-        border-radius: 50%;
+        border-radius: 100%;
     }
     
     .half-img .img{
